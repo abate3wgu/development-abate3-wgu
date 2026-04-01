@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Taniti Island | Booking</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<header><div class="header-container"><div class="site-title">Taniti Island</div><nav><a href="index.html">Home</a><a href="food.html">Food</a><a href="amenities.html">Amenities</a><a href="transportation.html">Transportation</a><a href="lodging.html">Lodging & Hotels</a><a href="entertainment.html">Entertainment</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a></nav></div></header>
+<section class="hero"><h2>Booking Page</h2><p>Request transportation or lodging with this static reservation form.</p></section>
+<main class="container">
+<section class="section"><img src="images/booking-travel.jpg" alt="Travel booking and reservation planning for Taniti Island" class="feature-image"><h3>Reservation Request</h3><form action="checkout.html" method="get"><div class="form-grid"><div><label for="full-name">Full Name</label><input type="text" id="full-name" name="full-name" required></div><div><label for="email">Email Address</label><input type="email" id="email" name="email" required></div><div><label for="booking-type">Booking Type</label><select id="booking-type" name="booking-type"><option>Transportation</option><option>Lodging</option><option>Hotel Package</option></select></div><div><label for="guests">Number of Guests</label><input type="number" id="guests" name="guests" min="1" value="1"></div><div><label for="checkin">Arrival / Check-In</label><input type="date" id="checkin" name="checkin"></div><div><label for="checkout-date">Departure / Check-Out</label><input type="date" id="checkout-date" name="checkout-date"></div></div><div><label for="notes">Special Requests</label><textarea id="notes" name="notes" placeholder="Airport pickup, hotel preference, transportation notes, accessibility needs, etc."></textarea></div><button type="submit" class="btn">Continue to Checkout</button></form></section>
+<section class="section"><div class="notice">This is a static booking form for a class project or prototype. It does not submit data to a real reservation system.</div></section>
+</main>
+<footer><p>&copy; 2026 Taniti Island Tourism</p><p>Your guide to travel, stay, and explore.</p></footer>
+</body>
+</html>
